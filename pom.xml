@@ -62,6 +62,7 @@
 	      <configuration>
 	        <archive>
 	          <manifest>
+			 <testFailureIgnore>true</testFailureIgnore> 
 	            <addClasspath>true</addClasspath>
 	            <classpathPrefix>lib/</classpathPrefix>
 	            <mainClass>com.mt.sample.HelloWorld</mainClass>
